@@ -19,15 +19,15 @@ VALUES
 ('Human Resources Employee', 80000, 5),
 ('Human Resources Director', 100000, 5);
 
-INSERT INTO employees (first_name, last_name, role_id, manager_id)
+INSERT INTO employees (employee_name, role_id, manager_id)
 VALUES
-('Jon', 'Donkowski', 1, 2),
-('Mike', 'Chan', 2, null),
-('Ashley', 'Rodriguez', 3, 4),
-('Kevin', 'Tupik', 4, null),
-('Malia', 'Brown', 5, 6),
-('Sarah', 'Lourd', 6, null),
-('Tom', 'Allen', 7, 8),
-('Jackie', 'Meyer', 8, null),
-('Tyson', 'Mack', 9, 10),
-('Rebecca', 'Flounder', 10, null);
+('Jon', 'Dmack', 1, 2),
+('Don', 'Flounder', 2, null),
+('Jennifer', 'Lopez', 3, 4),
+('Chad', 'Brad', 4, null),
+('Sarah', 'Johnson', 5, 6),
+('Dean', 'Smith', 6, null),
+('Hannah', 'Allen', 7, 8),
+('Melissa', 'Hernandez', 8, null),
+('Dale', 'Donkowski', 9, 10),
+('Mike ', 'chan', 10, null);
